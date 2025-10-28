@@ -1,0 +1,57 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+}
+
+.sidebar {
+  min-width: 230px;
+  max-width: 230px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e76f51 0%, #f4a261 100%);
+  transition: all 0.3s ease;
+}
+
+.sidebar .list-group-item {
+  color: rgb(0, 0, 0);
+  background: transparent;
+  border: none;
+  font-weight: 500;
+}
+
+.sidebar .list-group-item:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#wrapper.toggled .sidebar {
+  margin-left: -230px;
+}
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+h1, h2, h3, h4, h5 {
+  color: #333;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #e76f51;
+  border-color: #e76f51;
+}
+
+.btn-primary:hover {
+  background-color: #d35f42;
+  border-color: #d35f42;
+}
+
+footer {
+  background-color: #fff;
+}
